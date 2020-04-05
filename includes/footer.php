@@ -167,7 +167,7 @@
 		<div class="modal fade user-register-modal" id="userregisterModal" tabindex="-1" role="dialog" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">
-					<form id="userregisterModalForm">
+					<form action="" id="userregisterModalForm" method="post">
 						<div class="modal-header">
 							<button type="button" class="close" data-dismiss="modal">
 								<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
@@ -349,3 +349,9 @@
 		</script>
 	</body>
 </html>
+
+<?php 
+	require_once('controllers/ChefController.php');
+	$chefController = new ChefController;
+	$chefController->register($_REQUEST);
+?>
