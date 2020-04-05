@@ -99,7 +99,7 @@
 							</ul>
 						</li>
 						<li class="menu-item-has-children dropdown">
-							<a href="#" class="dropdown-hover">Chefs <span class="caret"></span></a>
+							<a href="shop-list-2.php" class="dropdown-hover">Chefs <span class="caret"></span></a>
 							<!-- <ul class="dropdown-menu">
 								<li><a href="blog-default.html">Chef</a></li>
 								<li><a href="blog-center.html">Chef</a></li>
@@ -254,7 +254,7 @@
 														</ul> -->
 													</li>
 													<li class="menu-item-has-children megamenu megamenu-fullwidth dropdown">
-														<a href="#" class="dropdown-hover">
+														<a href="shop.php" class="dropdown-hover">
 															<span class="underline">Recipes</span> 
 															<span class="caret"></span>
 														</a>
@@ -309,13 +309,13 @@
 														</ul>
 													</li>
 													<li>
-														<a href="collection.html"><span class="underline">Chef</span></a>
+														<a href="shop-list-2.php"><span class="underline">Chef</span></a>
 													</li>
 													<li>
-														<a href="collection.html"><span class="underline">About Us</span></a>
+														<a href="about-us.php"><span class="underline">About Us</span></a>
 													</li>
 													<li>
-														<a href="collection.html"><span class="underline">Contact Us</span></a>
+														<a href="contact.php"><span class="underline">Contact Us</span></a>
 													</li>
 													<!-- <li class="menu-item-has-children dropdown">
 														<a href="#" class="dropdown-hover">

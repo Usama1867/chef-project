@@ -1,105 +1,92 @@
 <?php include 'includes/header.php';?>
-			<div class="heading-container heading-resize heading-no-button">
-				<div class="heading-background heading-parallax bg-1">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-12">
-								<div class="heading-wrap">
-									<div class="page-title">
-										<h1>Nunc interdum</h1>
-										<span class="subtitle">Women</span>
-									</div>
+<br><br><br><br><br><br>
+<div class="heading-container heading-resize heading-no-button" style="height: 250px;">
+	<div class="heading-background heading-parallax" >
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="heading-wrap">
+						<div class="page-title">
+							<h1 style="margin-bottom: 200px; color: black;">Recipes</h1>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="page-breadcrumb-container container">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="page-breadcrumb">
+				<ul class="breadcrumb">
+					<li><a class="home" href="#">Home</a></li>
+					<li>Shop</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="content-container">
+	<div class="container">
+		<div class="row">
+			<div class="commerce page-layout-left-sidebar">
+				<div class="col-md-9 main-wrap">
+					<div class="main-content">
+						<div class="woo-content">
+							<div class="shop-toolbar">
+								<div class="view-mode">
+									<a class="grid-mode active"><i class="fa fa-th"></i></a>
+									<a class="list-mode" href="#"><i class="fa fa-th-list"></i></a>
 								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="page-breadcrumb-container container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="page-breadcrumb">
-							<ul class="breadcrumb">
-								<li><a class="home" href="#">Home</a></li>
-								<li>Shop</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="content-container">
-				<div class="container">
-					<div class="row">
-						<div class="commerce page-layout-left-sidebar">
-							<div class="col-md-9 main-wrap">
-								<div class="main-content">
-									<div class="woo-content">
-										<div class="shop-toolbar">
-											<div class="view-mode">
-												<a class="grid-mode active"><i class="fa fa-th"></i></a>
-												<a class="list-mode" href="#"><i class="fa fa-th-list"></i></a>
-											</div>
-											<form class="commerce-ordering clearfix">
-												<div class="commerce-ordering-select">
-													<label class="hide">Sorting:</label>
-													<div class="form-flat-select">
-														<select name="orderby" class="orderby">
-															<option value="" selected='selected'>Default sorting</option>
-															<option value="">Sort by popularity</option>
-															<option value="">Sort by average rating</option>
-															<option value="">Sort by newness</option>
-															<option value="">Sort by price: low to high</option>
-															<option value="">Sort by price: high to low</option>
-														</select>
-														<i class="fa fa-angle-down"></i>
-													</div>
-												</div>
-												<div class="commerce-ordering-select">
-													<label class="hide">Show:</label>
-													<div class="form-flat-select">
-														<select name="per_page" class="per_page">
-															<option value="" selected='selected'>12</option>
-															<option value="">24</option>
-															<option value="">36</option>
-														</select>
-														<i class="fa fa-angle-down"></i>
-													</div>
-												</div>
-											</form>
+								<form class="commerce-ordering clearfix">
+									<div class="commerce-ordering-select">
+										<label class="hide">Sorting:</label>
+										<div class="form-flat-select">
+											<select name="orderby" class="orderby">
+												<option value="" selected='selected'>Default sorting</option>
+												<option value="">Sort by popularity</option>
+												<option value="">Sort by average rating</option>
+												<option value="">Sort by newness</option>
+												<option value="">Sort by price: low to high</option>
+												<option value="">Sort by price: high to low</option>
+											</select>
+											<i class="fa fa-angle-down"></i>
 										</div>
-										<div class="shop-loop grid">
-											<ul class="products">
-												<li class="product">
-													<div class="product-container">
-														<figure>
-															<div class="product-wrap">
-																<div class="product-images">
-																	<div class="shop-loop-thumbnail shop-loop-front-thumbnail">
-																		<a href="#">
-																			<img width="400" height="450" src="images/product/thumb_400x400.jpg" alt="Product-1"/>
-																		</a>
-																	</div>
-																	<div class="shop-loop-thumbnail shop-loop-back-thumbnail">
-																		<a href="#">
-																			<img width="400" height="450" src="images/product/thumb_400x400_alt.jpg" alt="Product-1alt"/>
-																		</a>
-																	</div>
-																</div>
-																<div class="shop-loop-actions">
-																	<a href="#" class="add_to_cart_button product_type_simple">
-																		View
-																	</a>
-																	<a class="shop-loop-quickview" href="#" data-original-title="Quick view">
-																	</a>
-																	<div class="yith-wcwl-add-to-wishlist">
-                                                                        <div class="yith-wcwl-add-button">
-                                                                            <a href="#" class="add_to_wishlist">
-                                                                                Add to Wishlist
-                                                                            </a>
-                                                                        </div>
-                                                                    </div>
-																	<div class="clear"></div>
-																</div>
+									</div>
+									<div class="commerce-ordering-select">
+										<label class="hide">Show:</label>
+										<div class="form-flat-select">
+											<select name="per_page" class="per_page">
+												<option value="" selected='selected'>12</option>
+												<option value="">24</option>
+												<option value="">36</option>
+											</select>
+											<i class="fa fa-angle-down"></i>
+										</div>
+									</div>
+								</form>
+							</div>
+							<div class="shop-loop grid">
+								<ul class="products">
+									<li class="product">
+										<div class="product-container">
+											<figure>
+												<div class="product-wrap">
+													<div class="product-images">
+														<div class="shop-loop-thumbnail shop-loop-front-thumbnail">
+															<a href="#">
+																<img width="400" height="450" src="images/product/thumb_400x400.jpg" alt="Product-1"/>
+															</a>
+														</div>
+														<div class="shop-loop-thumbnail shop-loop-back-thumbnail">
+															<a href="#">
+																<img width="400" height="450" src="images/product/thumb_400x400_alt.jpg" alt="Product-1alt"/>
+															</a>
+														</div>
+													</div>
+																
 															</div>
 															<figcaption>
 																<div class="shop-loop-product-info">
@@ -113,13 +100,10 @@
 																	<div class="info-meta">
 																		<div class="info-price">
 																			<span class="price">
-																				<span class="amount">
-																					12.00&#36;
-																				</span>
-																				&ndash;
-																				<span class="amount">
-																					23.00&#36;
-																				</span>
+																				<a class="btn btn-primary lookbook-action" href="shop-detail-1.php">
+																					<span>View Now</span>
+																				</a>
+
 																			</span>
 																		</div>
 																	</div>
@@ -128,639 +112,8 @@
 														</figure>
 													</div>
 												</li>
-												<li class="product">
-													<div class="product-container">
-														<figure>
-															<div class="product-wrap">
-																<div class="product-images">
-																	<div class="shop-loop-thumbnail shop-loop-front-thumbnail">
-																		<a href="#">
-																			<img width="400" height="450" src="images/product/thumb_400x400.jpg" alt="Product-2"/>
-																		</a>
-																	</div>
-																	<div class="shop-loop-thumbnail shop-loop-back-thumbnail">
-																		<a href="#">
-																			<img width="400" height="450" src="images/product/thumb_400x400_alt.jpg" alt="Product-2alt"/>
-																		</a>
-																	</div>
-																</div>
-																<div class="shop-loop-actions">
-																	<a href="#" class="add_to_cart_button product_type_simple">
-																		View
-																	</a>
-																	<a class="shop-loop-quickview" href="#" data-original-title="Quick view">
-																	</a>
-																	<div class="yith-wcwl-add-to-wishlist">
-                                                                        <div class="yith-wcwl-add-button">
-                                                                            <a href="#" class="add_to_wishlist">
-                                                                                Add to Wishlist
-                                                                            </a>
-                                                                        </div>
-                                                                    </div>
-																	<div class="clear"></div>
-																</div>
-															</div>
-															<figcaption>
-																<div class="shop-loop-product-info">
-																	<div class="info-title">
-																		<h3 class="product_title">
-																			<a href="#">
-																				Morbi sed egestas
-																			</a>
-																		</h3>
-																	</div>
-																	<div class="info-meta">
-																		<div class="info-price">
-																			<span class="price">
-																				<span class="amount">
-																					12.00&#36;
-																				</span>
-																				&ndash;
-																				<span class="amount">
-																					23.00&#36;
-																				</span>
-																			</span>
-																		</div>
-																	</div>
-																</div>
-															</figcaption>
-														</figure>
-													</div>
-												</li>
-												<li class="product">
-													<div class="product-container">
-														<figure>
-															<div class="product-wrap">
-																<div class="product-images">
-																	<div class="shop-loop-thumbnail shop-loop-front-thumbnail">
-																		<a href="#">
-																			<img width="400" height="450" src="images/product/thumb_400x400.jpg" alt="Product-5"/>
-																		</a>
-																	</div>
-																	<div class="shop-loop-thumbnail shop-loop-back-thumbnail">
-																		<a href="#">
-																			<img width="400" height="450" src="images/product/thumb_400x400_alt.jpg" alt="Product-5alt"/>
-																		</a>
-																	</div>
-																</div>
-																<div class="shop-loop-actions">
-																	<a href="#" class="add_to_cart_button product_type_simple">
-																		View
-																	</a>
-																	<a class="shop-loop-quickview" href="#" data-original-title="Quick view">
-																	</a>
-																	<div class="yith-wcwl-add-to-wishlist">
-                                                                        <div class="yith-wcwl-add-button">
-                                                                            <a href="#" class="add_to_wishlist">
-                                                                                Add to Wishlist
-                                                                            </a>
-                                                                        </div>
-                                                                    </div>
-																	<div class="clear"></div>
-																</div>
-															</div>
-															<figcaption>
-																<div class="shop-loop-product-info">
-																	<div class="info-title">
-																		<h3 class="product_title">
-																			<a href="#">
-																				Jalapeno Dressing Salad
-																			</a>
-																		</h3>
-																	</div>
-																	<div class="info-meta">
-																		<div class="info-price">
-																			<span class="price">
-																				<span class="amount">
-																					17.75&#36;
-																				</span>
-																			</span>
-																		</div>
-																	</div>
-																</div>
-															</figcaption>
-														</figure>
-													</div>
-												</li>
-												<li class="product">
-													<div class="product-container">
-														<figure>
-															<div class="product-wrap">
-																<span class="onsale">Sale!</span>
-																<div class="product-images">
-																	<div class="shop-loop-thumbnail shop-loop-front-thumbnail">
-																		<a href="#">
-																			<img width="400" height="450" src="images/product/thumb_400x400.jpg" alt="Product-6"/>
-																		</a>
-																	</div>
-																	<div class="shop-loop-thumbnail shop-loop-back-thumbnail">
-																		<a href="#">
-																			<img width="400" height="450" src="images/product/thumb_400x400_alt.jpg" alt="Product-6alt"/>
-																		</a>
-																	</div>
-																</div>
-																<div class="shop-loop-actions">
-																	<a href="#" class="add_to_cart_button product_type_simple">
-																		View
-																	</a>
-																	<a class="shop-loop-quickview" href="#" data-original-title="Quick view">
-																	</a>
-																	<div class="yith-wcwl-add-to-wishlist">
-                                                                        <div class="yith-wcwl-add-button">
-                                                                            <a href="#" class="add_to_wishlist">
-                                                                                Add to Wishlist
-                                                                            </a>
-                                                                        </div>
-                                                                    </div>
-																	<div class="clear"></div>
-																</div>
-															</div>
-															<figcaption>
-																<div class="shop-loop-product-info">
-																	<div class="info-title">
-																		<h3 class="product_title">
-																			<a href="#">
-																				Pesto Cauliflower
-																			</a>
-																		</h3>
-																	</div>
-																	<div class="info-meta">
-																		<div class="info-price">
-																			<span class="price">
-																				<del>
-																					<span class="amount">
-																						15.05&#36;
-																					</span>
-																				</del> 
-																				<ins>
-																					<span class="amount">
-																						12.00&#36;
-																					</span>
-																				</ins>
-																			</span>
-																		</div>
-																	</div>
-																</div>
-															</figcaption>
-														</figure>
-													</div>
-												</li>
-												<li class="product">
-													<div class="product-container">
-														<figure>
-															<div class="product-wrap">
-																<div class="product-images">
-																	<div class="shop-loop-thumbnail shop-loop-front-thumbnail">
-																		<a href="#">
-																			<img width="400" height="450" src="images/product/thumb_400x400.jpg" alt="Product-1"/>
-																		</a>
-																	</div>
-																	<div class="shop-loop-thumbnail shop-loop-back-thumbnail">
-																		<a href="#">
-																			<img width="400" height="450" src="images/product/thumb_400x400_alt.jpg" alt="Product-1alt"/>
-																		</a>
-																	</div>
-																</div>
-																<div class="shop-loop-actions">
-																	<a href="#" class="add_to_cart_button product_type_simple">
-																		View
-																	</a>
-																	<a class="shop-loop-quickview" href="#" data-original-title="Quick view">
-																	</a>
-																	<div class="yith-wcwl-add-to-wishlist">
-                                                                        <div class="yith-wcwl-add-button">
-                                                                            <a href="#" class="add_to_wishlist">
-                                                                                Add to Wishlist
-                                                                            </a>
-                                                                        </div>
-                                                                    </div>
-																	<div class="clear"></div>
-																</div>
-															</div>
-															<figcaption>
-																<div class="shop-loop-product-info">
-																	<div class="info-title">
-																		<h3 class="product_title">
-																			<a href="#">
-																				Cras rhoncus duis viverra
-																			</a>
-																		</h3>
-																	</div>
-																	<div class="info-meta">
-																		<div class="info-price">
-																			<span class="price">
-																				<span class="amount">
-																					12.00&#36;
-																				</span>
-																				&ndash;
-																				<span class="amount">
-																					23.00&#36;
-																				</span>
-																			</span>
-																		</div>
-																	</div>
-																</div>
-															</figcaption>
-														</figure>
-													</div>
-												</li>
-												<li class="product">
-													<div class="product-container">
-														<figure>
-															<div class="product-wrap">
-																<div class="product-images">
-																	<div class="shop-loop-thumbnail shop-loop-front-thumbnail">
-																		<a href="#">
-																			<img width="400" height="450" src="images/product/thumb_400x400.jpg" alt="Product-3"/>
-																		</a>
-																	</div>
-																	<div class="shop-loop-thumbnail shop-loop-back-thumbnail">
-																		<a href="#">
-																			<img width="400" height="450" src="images/product/thumb_400x400_alt.jpg" alt="Product-3alt"/>
-																		</a>
-																	</div>
-																</div>
-																<div class="shop-loop-actions">
-																	<a href="#" class="add_to_cart_button product_type_simple">
-																		View
-																	</a>
-																	<a class="shop-loop-quickview" href="#" data-original-title="Quick view">
-																	</a>
-																	<div class="yith-wcwl-add-to-wishlist">
-                                                                        <div class="yith-wcwl-add-button">
-                                                                            <a href="#" class="add_to_wishlist">
-                                                                                Add to Wishlist
-                                                                            </a>
-                                                                        </div>
-                                                                    </div>
-																	<div class="clear"></div>
-																</div>
-															</div>
-															<figcaption>
-																<div class="shop-loop-product-info">
-																	<div class="info-title">
-																		<h3 class="product_title">
-																			<a href="#">
-																				Creamy Spring Pasta
-																			</a>
-																		</h3>
-																	</div>
-																	<div class="info-meta">
-																		<div class="info-price">
-																			<span class="price">
-																				<span class="amount">
-																					12.00&#36;
-																				</span>
-																				&ndash;
-																				<span class="amount">
-																					23.00&#36;
-																				</span>
-																			</span>
-																		</div>
-																	</div>
-																</div>
-															</figcaption>
-														</figure>
-													</div>
-												</li>
-												<li class="product">
-													<div class="product-container">
-														<figure>
-															<div class="product-wrap">
-																<div class="product-images">
-																	<div class="shop-loop-thumbnail shop-loop-front-thumbnail">
-																		<a href="#">
-																			<img width="400" height="450" src="images/product/thumb_400x400.jpg" alt="Product-4"/>
-																		</a>
-																	</div>
-																	<div class="shop-loop-thumbnail shop-loop-back-thumbnail">
-																		<a href="#">
-																			<img width="400" height="450" src="images/product/thumb_400x400_alt.jpg" alt="Product-4alt"/>
-																		</a>
-																	</div>
-																</div>
-																<div class="shop-loop-actions">
-																	<a href="#" class="add_to_cart_button product_type_simple">
-																		View
-																	</a>
-																	<a class="shop-loop-quickview" href="#" data-original-title="Quick view">
-																	</a>
-																	<div class="yith-wcwl-add-to-wishlist">
-                                                                        <div class="yith-wcwl-add-button">
-                                                                            <a href="#" class="add_to_wishlist">
-                                                                                Add to Wishlist
-                                                                            </a>
-                                                                        </div>
-                                                                    </div>
-																	<div class="clear"></div>
-																</div>
-															</div>
-															<figcaption>
-																<div class="shop-loop-product-info">
-																	<div class="info-title">
-																		<h3 class="product_title">
-																			<a href="#">
-																				Green Chile Burritos
-																			</a>
-																		</h3>
-																	</div>
-																	<div class="info-meta">
-																		<div class="info-price">
-																			<span class="price">
-																				<span class="amount">
-																					73.75&#36;
-																				</span>
-																			</span>
-																		</div>
-																	</div>
-																</div>
-															</figcaption>
-														</figure>
-													</div>
-												</li>
-												<li class="product">
-													<div class="product-container">
-														<figure>
-															<div class="product-wrap">
-																<div class="product-images">
-																	<div class="shop-loop-thumbnail shop-loop-front-thumbnail">
-																		<a href="#">
-																			<img width="400" height="450" src="images/product/thumb_400x400.jpg" alt="Product-5"/>
-																		</a>
-																	</div>
-																	<div class="shop-loop-thumbnail shop-loop-back-thumbnail">
-																		<a href="#">
-																			<img width="400" height="450" src="images/product/thumb_400x400_alt.jpg" alt="Product-5alt"/>
-																		</a>
-																	</div>
-																</div>
-																<div class="shop-loop-actions">
-																	<a href="#" class="add_to_cart_button product_type_simple">
-																		View
-																	</a>
-																	<a class="shop-loop-quickview" href="#" data-original-title="Quick view">
-																	</a>
-																	<div class="yith-wcwl-add-to-wishlist">
-                                                                        <div class="yith-wcwl-add-button">
-                                                                            <a href="#" class="add_to_wishlist">
-                                                                                Add to Wishlist
-                                                                            </a>
-                                                                        </div>
-                                                                    </div>
-																	<div class="clear"></div>
-																</div>
-															</div>
-															<figcaption>
-																<div class="shop-loop-product-info">
-																	<div class="info-title">
-																		<h3 class="product_title">
-																			<a href="#">
-																				Jalapeno Dressing Salad
-																			</a>
-																		</h3>
-																	</div>
-																	<div class="info-meta">
-																		<div class="info-price">
-																			<span class="price">
-																				<span class="amount">
-																					17.75&#36;
-																				</span>
-																			</span>
-																		</div>
-																	</div>
-																</div>
-															</figcaption>
-														</figure>
-													</div>
-												</li>
-												<li class="product">
-													<div class="product-container">
-														<figure>
-															<div class="product-wrap">
-																<div class="product-images">
-																	<div class="shop-loop-thumbnail shop-loop-front-thumbnail">
-																		<a href="#">
-																			<img width="400" height="450" src="images/product/thumb_400x400.jpg" alt="Product-2"/>
-																		</a>
-																	</div>
-																	<div class="shop-loop-thumbnail shop-loop-back-thumbnail">
-																		<a href="#">
-																			<img width="400" height="450" src="images/product/thumb_400x400_alt.jpg" alt="Product-2alt"/>
-																		</a>
-																	</div>
-																</div>
-																<div class="shop-loop-actions">
-																	<a href="#" class="add_to_cart_button product_type_simple">
-																		View
-																	</a>
-																	<a class="shop-loop-quickview" href="#" data-original-title="Quick view">
-																	</a>
-																	<div class="yith-wcwl-add-to-wishlist">
-                                                                        <div class="yith-wcwl-add-button">
-                                                                            <a href="#" class="add_to_wishlist">
-                                                                                Add to Wishlist
-                                                                            </a>
-                                                                        </div>
-                                                                    </div>
-																	<div class="clear"></div>
-																</div>
-															</div>
-															<figcaption>
-																<div class="shop-loop-product-info">
-																	<div class="info-title">
-																		<h3 class="product_title">
-																			<a href="#">
-																				Morbi sed egestas
-																			</a>
-																		</h3>
-																	</div>
-																	<div class="info-meta">
-																		<div class="info-price">
-																			<span class="price">
-																				<span class="amount">
-																					12.00&#36;
-																				</span>
-																				&ndash;
-																				<span class="amount">
-																					23.00&#36;
-																				</span>
-																			</span>
-																		</div>
-																	</div>
-																</div>
-															</figcaption>
-														</figure>
-													</div>
-												</li>
-												<li class="product">
-													<div class="product-container">
-														<figure>
-															<div class="product-wrap">
-																<div class="product-images">
-																	<div class="shop-loop-thumbnail shop-loop-front-thumbnail">
-																		<a href="#">
-																			<img width="400" height="450" src="images/product/thumb_400x400.jpg" alt="Product-3"/>
-																		</a>
-																	</div>
-																	<div class="shop-loop-thumbnail shop-loop-back-thumbnail">
-																		<a href="#">
-																			<img width="400" height="450" src="images/product/thumb_400x400_alt.jpg" alt="Product-3alt"/>
-																		</a>
-																	</div>
-																</div>
-																<div class="shop-loop-actions">
-																	<a href="#" class="add_to_cart_button product_type_simple">
-																		View
-																	</a>
-																	<a class="shop-loop-quickview" href="#" data-original-title="Quick view">
-																	</a>
-																	<div class="yith-wcwl-add-to-wishlist">
-                                                                        <div class="yith-wcwl-add-button">
-                                                                            <a href="#" class="add_to_wishlist">
-                                                                                Add to Wishlist
-                                                                            </a>
-                                                                        </div>
-                                                                    </div>
-																	<div class="clear"></div>
-																</div>
-															</div>
-															<figcaption>
-																<div class="shop-loop-product-info">
-																	<div class="info-title">
-																		<h3 class="product_title">
-																			<a href="#">
-																				Creamy Spring Pasta
-																			</a>
-																		</h3>
-																	</div>
-																	<div class="info-meta">
-																		<div class="info-price">
-																			<span class="price">
-																				<span class="amount">
-																					12.00&#36;
-																				</span>
-																				&ndash;
-																				<span class="amount">
-																					23.00&#36;
-																				</span>
-																			</span>
-																		</div>
-																	</div>
-																</div>
-															</figcaption>
-														</figure>
-													</div>
-												</li>
-												<li class="product">
-													<div class="product-container">
-														<figure>
-															<div class="product-wrap">
-																<div class="product-images">
-																	<div class="shop-loop-thumbnail shop-loop-front-thumbnail">
-																		<a href="#">
-																			<img width="400" height="450" src="images/product/thumb_400x400.jpg" alt="Product-4"/>
-																		</a>
-																	</div>
-																	<div class="shop-loop-thumbnail shop-loop-back-thumbnail">
-																		<a href="#">
-																			<img width="400" height="450" src="images/product/thumb_400x400_alt.jpg" alt="Product-4alt"/>
-																		</a>
-																	</div>
-																</div>
-																<div class="shop-loop-actions">
-																	<a href="#" class="add_to_cart_button product_type_simple">
-																		View
-																	</a>
-																	<a class="shop-loop-quickview" href="#" data-original-title="Quick view">
-																	</a>
-																	<div class="yith-wcwl-add-to-wishlist">
-                                                                        <div class="yith-wcwl-add-button">
-                                                                            <a href="#" class="add_to_wishlist">
-                                                                                Add to Wishlist
-                                                                            </a>
-                                                                        </div>
-                                                                    </div>
-																	<div class="clear"></div>
-																</div>
-															</div>
-															<figcaption>
-																<div class="shop-loop-product-info">
-																	<div class="info-title">
-																		<h3 class="product_title">
-																			<a href="#">
-																				Green Chile Burritos
-																			</a>
-																		</h3>
-																	</div>
-																	<div class="info-meta">
-																		<div class="info-price">
-																			<span class="price">
-																				<span class="amount">
-																					73.75&#36;
-																				</span>
-																			</span>
-																		</div>
-																	</div>
-																</div>
-															</figcaption>
-														</figure>
-													</div>
-												</li>
-												<li class="product">
-													<div class="product-container">
-														<figure>
-															<div class="product-wrap">
-																<div class="product-images">
-																	<div class="shop-loop-thumbnail shop-loop-front-thumbnail">
-																		<a href="#">
-																			<img width="400" height="450" src="images/product/thumb_400x400.jpg" alt="Product-5"/>
-																		</a>
-																	</div>
-																	<div class="shop-loop-thumbnail shop-loop-back-thumbnail">
-																		<a href="#">
-																			<img width="400" height="450" src="images/product/thumb_400x400_alt.jpg" alt="Product-5alt"/>
-																		</a>
-																	</div>
-																</div>
-																<div class="shop-loop-actions">
-																	<a href="#" class="add_to_cart_button product_type_simple">
-																		View
-																	</a>
-																	<a class="shop-loop-quickview" href="#" data-original-title="Quick view">
-																	</a>
-																	<div class="yith-wcwl-add-to-wishlist">
-                                                                        <div class="yith-wcwl-add-button">
-                                                                            <a href="#" class="add_to_wishlist">
-                                                                                Add to Wishlist
-                                                                            </a>
-                                                                        </div>
-                                                                    </div>
-																	<div class="clear"></div>
-																</div>
-															</div>
-															<figcaption>
-																<div class="shop-loop-product-info">
-																	<div class="info-title">
-																		<h3 class="product_title">
-																			<a href="#">
-																				Jalapeno Dressing Salad
-																			</a>
-																		</h3>
-																	</div>
-																	<div class="info-meta">
-																		<div class="info-price">
-																			<span class="price">
-																				<span class="amount">
-																					17.75&#36;
-																				</span>
-																			</span>
-																		</div>
-																	</div>
-																</div>
-															</figcaption>
-														</figure>
-													</div>
-												</li>
+												
+												
 											</ul>
 										</div>
 										<nav class="commerce-pagination">
@@ -782,7 +135,7 @@
 							</div>
 							<div class="col-md-3 sidebar-wrap">
 								<div class="main-sidebar">
-									<div class="widget widget_price_filter">
+									<!-- <div class="widget widget_price_filter">
 										<h4 class="widget-title"><span>Price</span></h4>
 										<form>
 											<div class="price_slider_wrapper">
@@ -798,18 +151,18 @@
 												</div>
 											</div>
 										</form>
-									</div>
+									</div> -->
 									<div class="widget widget_layered_nav">
-										<h4 class="widget-title"><span>Brands</span></h4>
+										<h4 class="widget-title"><span>Select By Chefs</span></h4>
 										<ul>
 											<li>
-												<a href="#">Adesso</a> <small class="count">11</small>
+												<a href="#">Aqib</a> <small class="count">11</small>
 											</li>
 											<li>
-												<a href="#">Barbour</a> <small class="count">6</small>
+												<a href="#">Hasnain</a> <small class="count">6</small>
 											</li>
 											<li>
-												<a href="#">Carvela</a> <small class="count">9</small>
+												<a href="#">Usama</a> <small class="count">9</small>
 											</li>
 											<li>
 												<a href="#">Crocs</a> <small class="count">10</small>
@@ -822,9 +175,9 @@
 									<div class="widget widget_product_categories">
 										<h4 class="widget-title"><span>Categories</span></h4>
 										<ul class="product-categories">
-											<li><a href="#">Aliquam</a></li>
-											<li><a href="#">Donec</a></li>
-											<li><a href="#">Fusce</a></li>
+											<li><a href="#">Maa D Daal</a></li>
+											<li><a href="#">Peo Day Chanay</a></li>
+											<li><a href="#">Kapooray</a></li>
 											<li><a href="#">Maecenas</a></li>
 											<li><a href="#">Nulla</a></li>
 											<li><a href="#">Proin</a></li>
@@ -833,7 +186,7 @@
 										</ul>
 									</div>
 									<div class="widget widget_products">
-										<h4 class="widget-title"><span>Best Sellers</span></h4>
+										<h4 class="widget-title"><span>Latest Recipes</span></h4>
 										<ul class="product_list_widget">
 											<li>
 												<a href="#">
@@ -873,12 +226,12 @@
 											</li>
 										</ul>
 									</div>
-									<div class="widget widget_product_tag_cloud">
+									<!-- <div class="widget widget_product_tag_cloud">
 										<h4 class="widget-title"><span>Product Tags</span></h4>
 										<div class="tagcloud">
 											<a href='#'>Men</a><a href='#'>Women</a>
 										</div>
-									</div>
+									</div> -->
 								</div>
 							</div>
 						</div>
@@ -1141,4 +494,4 @@
 		<script type='text/javascript' src='js/price-slider.js'></script>
 		<script type='text/javascript' src='js/preloader.min.js'></script>
 	</body>
-</html>
+	</html>
