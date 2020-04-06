@@ -202,7 +202,7 @@
 							<span class="user-login-modal-link pull-left">
 								<a data-rel="loginModal" href="#loginModal">Already have an account?</a>
 							</span>
-							<button type="submit" class="btn btn-default btn-outline">Register</button>
+							<input type="submit" name="register" value="Register" class="btn btn-default btn-outline">
 						</div>
 					</form>
 				</div>
@@ -353,5 +353,8 @@
 <?php 
 	require_once('controllers/ChefController.php');
 	$chefController = new ChefController;
-	$chefController->register($_REQUEST);
+	if (isset($_POST['register'])) {
+		$chefController->register($_REQUEST);
+	}
+	
 ?>
