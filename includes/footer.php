@@ -1,135 +1,135 @@
 <div class="footer-widget">
-				<div class="footer-widget-wrap">
-					<div class="container">
-						<div class="row">
-							<div class="footer-widget-col col-md-3 col-sm-6">
-								<div class="widget widget_nav_menu">
-									<h3 class="widget-title">
-										<span>Chef</span>
-									</h3>
-									<div class="menu-legal-container">
-										<ul class="menu">
-											<li><a href="#">View Fav</a></li>
-											<li><a href="#">View Recipes</a></li>
-											<li><a href="#">View Profile</a></li>
-											<li><a href="#">Create Recipes</a></li>
-											<li><a href="#">Collections</a></li>
-											<li><a href="#">Delete Recipe</a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div class="footer-widget-col col-md-3 col-sm-6">
-								<div class="widget widget_nav_menu">
-									<h3 class="widget-title">
-										<span>Online Cooking Portal</span>
-									</h3>
-									<div class="menu-company-container">
-										<ul class="menu">
-											<li><a href="#">About Us</a></li>
-											<li><a href="#">Register as Chef Here</a></li>
-											<li><a href="#">View Recipes</a></li>
-											<!-- <li><a href="#">Happenings</a></li> -->
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div class="footer-widget-col col-md-3 col-sm-6">
-								<div class="widget widget_nav_menu">
-									<h3 class="widget-title">
-										<span>Services</span>
-									</h3>
-									<div class="menu-services-container">
-										<ul class="menu">
-											<li><a href="#">Contact Us</a></li>
-											<li><a href="#">FAQ</a></li>
-											
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div class="footer-widget-col col-md-3 col-sm-6">
-								<div class="widget widget_nav_menu">
-									<h3 class="widget-title">
-										<span>Learners</span>
-									</h3>
-									<div class="menu-orders-returns-container">
-										<ul class="menu">
-											<li><a href="#">View Profile</a></li>
-											<li><a href="#">Edit Profile</a></li>
-											<li><a href="#">Favourite Recipes</a></li>
-											<li><a href="#">Digital Gift Card</a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
+	<div class="footer-widget-wrap">
+		<div class="container">
+			<div class="row">
+				<div class="footer-widget-col col-md-3 col-sm-6">
+					<div class="widget widget_nav_menu">
+						<h3 class="widget-title">
+							<span>Chef</span>
+						</h3>
+						<div class="menu-legal-container">
+							<ul class="menu">
+								<li><a href="#">View Fav</a></li>
+								<li><a href="#">View Recipes</a></li>
+								<li><a href="#">View Profile</a></li>
+								<li><a href="#">Create Recipes</a></li>
+								<li><a href="#">Collections</a></li>
+								<li><a href="#">Delete Recipe</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="footer-widget-col col-md-3 col-sm-6">
+					<div class="widget widget_nav_menu">
+						<h3 class="widget-title">
+							<span>Online Cooking Portal</span>
+						</h3>
+						<div class="menu-company-container">
+							<ul class="menu">
+								<li><a href="#">About Us</a></li>
+								<li><a href="#">Register as Chef Here</a></li>
+								<li><a href="#">View Recipes</a></li>
+								<!-- <li><a href="#">Happenings</a></li> -->
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="footer-widget-col col-md-3 col-sm-6">
+					<div class="widget widget_nav_menu">
+						<h3 class="widget-title">
+							<span>Services</span>
+						</h3>
+						<div class="menu-services-container">
+							<ul class="menu">
+								<li><a href="#">Contact Us</a></li>
+								<li><a href="#">FAQ</a></li>
+
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="footer-widget-col col-md-3 col-sm-6">
+					<div class="widget widget_nav_menu">
+						<h3 class="widget-title">
+							<span>Learners</span>
+						</h3>
+						<div class="menu-orders-returns-container">
+							<ul class="menu">
+								<li><a href="#">View Profile</a></li>
+								<li><a href="#">Edit Profile</a></li>
+								<li><a href="#">Favourite Recipes</a></li>
+								<li><a href="#">Digital Gift Card</a></li>
+							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
-			<footer class="footer">
-				<div class="footer-contact">
-					<div class="container">
-						<div class="row">
-							<div class="col-sm-4">
-								<div class="footer-contact-item">
-									<div class="footer-contact-icon">
-										<i class="fa fa-map-marker"></i>
-									</div>
-									<div class="footer-contact-text">
-										356 St. James Square, Covnet Garden, England
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-4">
-								<div class="footer-contact-item">
-									<div class="footer-contact-icon">
-										<i class="fa fa-phone"></i>
-									</div>
-									<div class="footer-contact-text">
-										+ (400) 0123 456 789
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-4">
-								<div class="footer-contact-item">
-									<div class="footer-contact-icon">
-										<i class="fa fa-envelope-o"></i>
-									</div>
-									<div class="footer-contact-text">
-										<a href="mailto:email@domain.com">email@domain.com</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="footer-info">
-					<a href="#" class="go-to-top"><i class="fa fa-angle-double-up"></i></a>
-					<div class="container">
-						<div class="row">
-							<div class="col-md-12 text-center">
-								<div class="copyright text-center">
-									Copyright right © 2020 Online Cooking System. All Rights Reserved.
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</footer>
 		</div>
-
-		<div class="modal fade user-login-modal" id="userloginModal" tabindex="-1" role="dialog" aria-hidden="true">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<form id="userloginModalForm">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal">
-								<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
-							</button>
-							<h4 class="modal-title">Login</h4>
+	</div>
+</div>
+<footer class="footer">
+	<div class="footer-contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="footer-contact-item">
+						<div class="footer-contact-icon">
+							<i class="fa fa-map-marker"></i>
 						</div>
-						<div class="modal-body">
+						<div class="footer-contact-text">
+							356 St. James Square, Covnet Garden, England
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="footer-contact-item">
+						<div class="footer-contact-icon">
+							<i class="fa fa-phone"></i>
+						</div>
+						<div class="footer-contact-text">
+							+ (400) 0123 456 789
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="footer-contact-item">
+						<div class="footer-contact-icon">
+							<i class="fa fa-envelope-o"></i>
+						</div>
+						<div class="footer-contact-text">
+							<a href="mailto:email@domain.com">email@domain.com</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-info">
+		<a href="#" class="go-to-top"><i class="fa fa-angle-double-up"></i></a>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<div class="copyright text-center">
+						Copyright right © 2020 Online Cooking System. All Rights Reserved.
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+</div>
+
+<div class="modal fade user-login-modal" id="userloginModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<form id="userloginModalForm">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">
+						<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+					</button>
+					<h4 class="modal-title">Login</h4>
+				</div>
+				<div class="modal-body">
 							<!-- <div class="user-login-facebook">
 								<button class="btn-login-facebook" type="button">
 									<i class="fa fa-facebook"></i>Sign in with Facebook
@@ -167,7 +167,7 @@
 		<div class="modal fade user-register-modal" id="userregisterModal" tabindex="-1" role="dialog" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">
-					<form action="" id="userregisterModalForm" method="post">
+					<form id="userregisterModalForm">
 						<div class="modal-header">
 							<button type="button" class="close" data-dismiss="modal">
 								<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
@@ -182,7 +182,11 @@
 							</div> -->
 							<!-- <div class="user-login-or"><span>or</span></div> -->
 							<div class="form-group">
-								<label>Username</label>
+								<label>First Name</label>
+								<input type="text" name="user_login" required class="form-control" value="" placeholder="Username">
+							</div>
+							<div class="form-group">
+								<label>Last Name</label>
 								<input type="text" name="user_login" required class="form-control" value="" placeholder="Username">
 							</div>
 							<div class="form-group">
@@ -190,12 +194,31 @@
 								<input type="email" id="user_email" name="user_email" required class="form-control" value="" placeholder="Email">
 							</div>
 							<div class="form-group">
+								<label for="user_email">Address</label>
+								<input type="email" id="user_email" name="user_email" required class="form-control" value="" placeholder="Email">
+							</div>
+
+							<div class="form-group">
+								<label for="exampleFormControlSelect1">Register as:</label>
+								<select class="form-control" id="exampleFormControlSelect1">
+									<option>Chef</option>
+									<option>Learner</option>
+									
+								</select>
+							</div>
+							<div class="form-group">
 								<label for="user_password">Password</label>
 								<input type="password" id="user_password" required value="" name="user_password" class="form-control" placeholder="Password">
 							</div>
+
 							<div class="form-group">
 								<label for="user_password">Retype password</label>
 								<input type="password" id="cuser_password" required value="" name="cuser_password" class="form-control" placeholder="Retype password">
+							</div>
+							<div class="form-group">
+								<label for="example-search-input" class="col-form-label">Add Picture</label>
+								<br>
+								<input type="file" name="fileToUpload1">
 							</div>
 						</div>
 						<div class="modal-footer">
@@ -217,6 +240,7 @@
 								<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
 							</button>
 							<h4 class="modal-title">Forgot Password</h4>
+
 						</div>
 						<div class="modal-body">
 							<div class="form-group">
@@ -228,7 +252,7 @@
 							<span class="user-login-modal-link pull-left">
 								<a data-rel="loginModal" href="#loginModal">Already have an account?</a>
 							</span>
-							<button type="submit" class="btn btn-default btn-outline">Sign in</button>
+							<button type="submit" class="btn btn-default btn-outline">Send Recovery Password</button>
 						</div>
 					</form>
 				</div>
@@ -270,12 +294,12 @@
 
 			tpj(document).ready(function() {
 
-			if(tpj('#rev_slider').revolution == undefined){
-				revslider_showDoubleJqueryError('#rev_slider');
-			}else{
-			   revapi2 = tpj('#rev_slider').show().revolution(
-				{	
-					delay:9000,
+				if(tpj('#rev_slider').revolution == undefined){
+					revslider_showDoubleJqueryError('#rev_slider');
+				}else{
+					revapi2 = tpj('#rev_slider').show().revolution(
+					{	
+						delay:9000,
 						navigation: {
 							keyboardNavigation:"off",
 							keyboard_direction: "horizontal",
@@ -339,7 +363,7 @@
 							nextSlideOnWindowFocus:"off",
 							disableFocusListener:false,
 						}
-				});
+					});
 
 
 
@@ -348,10 +372,4 @@
 
 		</script>
 	</body>
-</html>
-
-<?php 
-	require_once('controllers/ChefController.php');
-	$chefController = new ChefController;
-	$chefController->register($_REQUEST);
-?>
+	</html>

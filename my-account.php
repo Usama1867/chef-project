@@ -9,7 +9,7 @@
 						</ul>
 					</div>
 				</div>
-			</div>
+			</div><hr>
 			<div class="content-container">
 				<div class="container">
 					<div class="row">
@@ -56,7 +56,59 @@
 						</div>
 					</div>
 				</div>
+			</div><hr>
+			<h3 style="margin-left: 600px;">My Recipe</h3>
+
+			<div class="content-container">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 main-wrap">
+							<div class="main-content">
+								<div class="commerce">
+									<form>
+										<table class="table shop_table cart">
+											<thead>
+												<tr>
+													<th class="product-remove hidden-xs">&nbsp;</th>
+													<th class="product-thumbnail hidden-xs">&nbsp;</th>
+													<th class="product-name">My Recipe</th>
+													<th class="product-price text-center">Date Added</th>
+													
+												</tr>
+											</thead>
+											<tbody>
+												<tr class="cart_item">
+													<td class="product-remove hidden-xs">
+														<a href="#" class="remove" title="Remove this item">&times;</a>
+													</td>
+													<td class="product-thumbnail hidden-xs">
+														<a href="#">
+															<img width="100" height="150" src="images/product/thumb_72x72.jpg" alt="Product-1"/>
+														</a>
+													</td>
+													<td class="product-name">
+														<a href="#">Cras rhoncus duis viverra</a>
+														
+													</td>
+													<td class="product-price text-center">
+														<span class="amount">Kal Parso</span>
+													</td>
+													
+												</tr>
+												
+											</tbody>
+										</table>
+									</form>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
+
+
+
 			<div class="footer-widget">
 				<div class="footer-widget-wrap">
 					<div class="container">

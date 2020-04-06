@@ -23,7 +23,14 @@
         <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
             <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+	
+
+
         <![endif]-->
+        <script src="https://cdn.ckeditor.com/4.14.0/standard/ckeditor.js"></script>
+
+
 	</head>
 	<body>
 		<div id="preloader">
@@ -100,6 +107,8 @@
 						</li>
 						<li class="menu-item-has-children dropdown">
 							<a href="shop-list-2.php" class="dropdown-hover">Chefs <span class="caret"></span></a>
+							<a href="learners.php" class="dropdown-hover">Learners <span class="caret"></span></a>
+							<a href="trash.php" class="dropdown-hover">Trash <span class="caret"></span></a>
 							<!-- <ul class="dropdown-menu">
 								<li><a href="blog-default.html">Chef</a></li>
 								<li><a href="blog-center.html">Chef</a></li>
@@ -177,10 +186,28 @@
 										<a href="my-account.php"><i class="fa fa-heart-o"></i> My Account</a>
 									</div>
 									<div class="user-wishlist">
+										<a href="trash.php"><i class="fa fa-heart-o"></i>My Trash</a>
+									</div>
+									<div class="user-wishlist">
+										<a href="addrec.php"><i class="fa fa-heart-o"></i>Add Recipe</a>
+									</div>
+									
+									<div class="user-wishlist">
 										<a href="logout.php"><i class="fa fa-heart-o"></i> Log-out</a>
 									</div>
 								</div>
 							</div>
+
+
+
+
+
+
+
+
+
+
+
 							<div class="col-sm-6">
 								<div class="right-topbar">
 									<div class="top-search">
@@ -195,9 +222,11 @@
 									</div>
 									<div class="language-switcher">
 										<div class="wpml-languages">
+
 											<a class="active" href="#" data-toggle="" role="button" aria-haspopup="true" aria-expanded="false">
 												<img src="images/en.png" alt="English"/> EN
 											</a>
+											
 											<!-- <ul class="wpml-lang-dropdown dropdown-menu">
 												<li>
 													<a href="#"><img src="images/fr.png" alt="French"/> FR</a>
@@ -310,6 +339,9 @@
 													</li>
 													<li>
 														<a href="shop-list-2.php"><span class="underline">Chef</span></a>
+													</li>
+													<li>
+														<a href="learners.php"><span class="underline">Learners</span></a>
 													</li>
 													<li>
 														<a href="about-us.php"><span class="underline">About Us</span></a>
